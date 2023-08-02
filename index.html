@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body onload="start()">
+    <header id="header-container">
+        <h1> CALCULATOR </h1>
+    </header>
+    <section class="calculator_frame">
+        
+        <button class="number clear" id="clear">Clear</button> <button class="number delete" id="delete">Delete</button>
+        <div class="display"></div>
+        <div class="numpad">
+            
+            <!--numbers-->
+            <button class="number digits" id="1">1</button> <button class="number digits" id="2">2</button> <button class="number digits" id="3">3</button> <br>
+            <button class="number digits" id="4">4</button> <button class="number digits" id="5">5</button> <button class="number digits" id="6">6</button> <br>
+            <button class="number digits" id="7">7</button> <button class="number digits" id="8">8</button> <button class="number digits" id="9">9</button> <br>
+            <button class="number digits" id="0">0</button> <button class="number digits dot" id=".">.</button> <br>
+
+            <!--operators-->
+            <button class="number operators" id="**">X*</button>
+            <button class="number operators" id="**0.5">√</button>
+            <button class="number operators" id="*">X</button>
+            <button class="number operators" id="/">÷</button>
+            <button class="number operators" id="+">+</button>
+            <button class="number operators" id="-">-</button>
+            <button class="number operators equal" id="=">=</button>
+
+        </div>
+    </section>
+</body>
+</html>
